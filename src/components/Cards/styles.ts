@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
-export const CardsContinainer = styled.div`
-  display: flex;
+export const CardsContainer = styled.div`
+  display: grid;
+  grid-template-columns: auto;
 `

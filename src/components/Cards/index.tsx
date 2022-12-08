@@ -1,5 +1,9 @@
-import { CardsContinainer } from './styles'
+import { CardsContainer } from './styles'
 
 export function Cards() {
-  return <CardsContinainer></CardsContinainer>
+  return (
+    <CardsContainer>
+      <div></div>
+    </CardsContainer>
+  )
 }
