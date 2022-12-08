@@ -1,7 +1,12 @@
+import { HeaderContainer } from "./styles";
+import logoPokeApi from '../../assets/pokeapi-logo.png'
+
 export function Header(){
     return(
-        <div>
-            Cabeçalho
-        </div>
+        <HeaderContainer>
+            <nav>
+                <img src={logoPokeApi} alt="" />
+            </nav>
+        </HeaderContainer>
     )
 }
