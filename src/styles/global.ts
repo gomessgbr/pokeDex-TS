@@ -11,8 +11,12 @@ export const GlobalStyle = createGlobalStyle`
 #root{
    margin:0 auto;
 }
-body{
-   background-color:aliceblue;
+
+:focus{
+   outline: 0;
+}
+
+body, input, textarea, button{
    font-family: 'Roboto', sans-serif;
 }
 
