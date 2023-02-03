@@ -1,6 +1,6 @@
-import { Cards } from '../../components/Cards'
-import { Header } from '../../components/Header'
-import { HomeContainer, HomeContent } from './styles'
+import { Cards } from "../../components/Cards";
+import { Header } from "../../components/Header";
+import { HomeContainer, HomeContent } from "./styles";
 
 export function Home() {
   return (
@@ -24,7 +24,10 @@ export function Home() {
         <Cards />
         <Cards />
         <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
       </HomeContent>
     </HomeContainer>
-  )
+  );
 }
